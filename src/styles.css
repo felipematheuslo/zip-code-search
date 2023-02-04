@@ -1,0 +1,56 @@
+.conteiner{
+    height: 100vh;
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(blue,gray);
+}
+.title{
+    color: white;
+    font-size: 45px;
+}
+.conteinerInput{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    margin: 35px 0;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 1px 3px 10px black;
+}
+.conteinerInput input{
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    margin-right: 8px;
+}
+.conteinerInput input::placeholder{
+    color: rgba(255, 255, 255, 0.75);
+}
+.buttonSearch{
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 300px;
+    border-radius: 8px;
+}
+.main h2{
+    margin: 16px;
+    font-size: 35px;
+}
+.main span{
+    margin-bottom: 14px;
+    font-weight: bold;
+}
